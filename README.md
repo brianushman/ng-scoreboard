@@ -1,4 +1,7 @@
-# NgScoreboard
+# Shuffleboard Scoreboard
+
+Needed a scoreboard for the family shuffleboard. Running Chrome on a RaspberryPi 3b. Because of the rendering capabilities this project needed to be optimized for the least amount of rendering as possible.
+Initial implmentation showed artifacts of screen tearing, so the data binding had to be reduced to jquery calls for all element updates.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
